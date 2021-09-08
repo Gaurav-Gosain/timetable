@@ -1,15 +1,71 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #282c34;
-  color: white;
+  color: whitesmoke;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+table {
+  font-family: "Montserrat", sans-serif;
+  border-spacing: 0.5rem;
+  width: 100vw;
+  height: 100vh;
+}
+td {
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 2em;
+  background-color: #141414;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.empty {
+  background-color: transparent !important;
+  color: transparent !important;
+  border: transparent !important;
+}
+
+#empty {
+  display: none;
+}
+
+.titles {
+  border: 2px solid whitesmoke;
+  cursor: vertical-text;
+}
+
+#Lec {
+  border: 2px solid  #cc00ff55;
+}
+
+#CLab {
+  border: 2px solid rgba(255, 0, 0, 0.363);
+}
+
+#Tut {
+  border: 2px solid rgba(255, 166, 0, 0.418);
+}
+
+@media screen and (max-width: 600px) {
+  table {
+    border-spacing: 0.1rem;
+    width: 100vw;
+    height: 100vh;
+  }
+  td {
+    padding: 0.1rem;
+    text-align: center;
+    font-size: 1em;
+    background-color: #141414;
+    border-radius: 10px;
+  }
 }
