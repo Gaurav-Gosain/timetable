@@ -32,10 +32,14 @@ td {
   background-color: transparent !important;
   color: transparent !important;
   border: transparent !important;
+  pointer-events: none !important;
+  cursor: default !important;
 }
 
 #empty {
   display: none;
+  pointer-events: none !important;
+  cursor: default !important;
 }
 
 .titles {
@@ -44,7 +48,7 @@ td {
 }
 
 #Lec {
-  border: 2px solid  #cc00ff55;
+  border: 2px solid #cc00ff55;
 }
 
 #CLab {
