@@ -62,7 +62,7 @@ export const info = [
   },
   {
     title: `${courseNames[2]} - ${fullnames[2]}`,
-    room: "2.09-Classroom (50)",
+    room: "4.08",
     prof: "T. Shaikh",
     time: "18:30 - 20:30",
     type: "Lec",
